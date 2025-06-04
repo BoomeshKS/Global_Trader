@@ -1,0 +1,47 @@
+.service-box{
+    border-radius:0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Feature Card Container */
+.feature-card-container {
+  text-align: center; /* Center-align the text */
+}
+
+/* Feature Card */
+.featuresCard {
+  /* display: flex; */
+  flex-direction: row; /* Adjusted to row for spacing between icon and text */
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.featuresCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature Card Icon */
+.featuresIcon {
+  width: 50px;
+  height: 50px;
+  fill: #333; /* Change color as needed */
+  margin-right: 20px;
+}
+
+/* Feature Card Text */
+.feature-card-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Feature Card Subheading */
+.bodySmall {
+  font-size: 14px;
+  color: #666; /* Change color as needed */
+}

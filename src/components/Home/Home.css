@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery-home{
+    background-image: url('../../assets/Home/why-us-bg.avif');
+    background-size: cover;
+}
+
+body {
+    width:100vw;
+    overflow-x: hidden;
+}
+
+.home-bg{
+    /* overflow-x: hidden; */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.anim-div {
+    width: 90vmin;
+    height: 90vmin;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3vmin;
+}
+
+.i {
+    position: relative;
+    z-index: 0;
+    width: 30%;
+    height: 70%;
+}
+
+.i1 {
+    right: -120%;
+    bottom: -80%;
+    transform: rotate(0);
+    opacity: 0;
+    transition: opacity 1.5s, right 1.5s, bottom 1.5s, transform 1.5s;
+}
+
+.i1.ii1 {
+    opacity: 1;
+    right: -49%;
+    bottom: 9%;
+    z-index: 5;
+    transform: rotate(-54deg);
+}
+
+.i2 {
+    top: -55%;
+    right: -85%;
+    transform: rotate(-72deg);
+    opacity: 0;
+    transition: opacity 1.5s, right 1.5s, top 1.5s, transform 1.5s;
+}
+
+.i2.ii2 {
+    opacity: 1;
+    top: -5%;
+    right: 16%;
+    z-index: 4;
+    transform: rotate(-126deg)
+}
+
+.i3 {
+    top: -50%;
+    right: 90%;
+    transform: rotate(-144deg);
+    opacity: 0;
+    transition: opacity 1.5s, right 1.5s, top 1.5s, transform 1.5s;
+}
+
+.i3.ii3 {
+    opacity: 1;
+    top: 33%;
+    right: 51%;
+    z-index: 3;
+    transform: rotate(-198deg);
+}
+
+.i4 {
+    top: -50%;
+    left: -50%;
+    transform: rotate(-216deg);
+    opacity: 0;
+    transition: opacity 1.5s, left 1.5s, top 1.5s, transform 1.5s;
+}
+
+.i4.ii4 {
+    opacity: 1;
+    top: -22%;
+    left: 39%;
+    z-index: 2;
+    transform: rotate(-270deg);
+}
+
+.i5 {
+    left: 0%;
+    bottom: -30%;
+    transform: rotate(-288deg);
+    opacity: 0;
+    transition: opacity 1.5s, left 1.5s, bottom 1.5s, transform 1.5s;
+}
+
+.i5.ii5 {
+    opacity: 1;
+    left: 34%;
+    bottom: 50%;
+    z-index: 1;
+    transform: rotate(-342deg);
+}
+
+.ih {
+    left: 30%;
+    bottom: 40%;
+    transform: rotate(-288deg);
+    opacity: 0;
+    transition: opacity 1.5s, left 1.5s, bottom 1.5s, transform 1.5s;
+}
+
+.ih.ihh {
+    opacity: 1;
+    left: 64%;
+    bottom: 120%;
+    z-index: 6;
+    transform: rotate(-342deg);
+}
+
+.logo {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: width 1.5s, height 1.5s, top 1.5s, left 1.5s;
+}
+
+.logo2 {
+    position: absolute;
+    width: 30%;
+    height: 17.5%;
+    top: 42%;
+    left: 35%;
+}
+
+.b {
+    z-index: 1;
+    position: absolute;
+    padding: 6px;
+    width: 16.5%;
+    height: 10.5%;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    color: white !important;
+}
+
+.b:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+b {
+    font-size: 11px;
+}
+
+.btnp {
+    margin: 0;
+    line-height: 13px;
+}
+
+.b1 {
+    top: 19%;
+    right: 28%;
+    transform: rotate(36deg);
+}
+
+.b2 {
+    top: 26%;
+    left: 18%;
+    transform: rotate(-36deg);
+}
+
+.b3 {
+    bottom: 29%;
+    left: 13%;
+    transform: rotate(252deg);
+}
+
+.b4 {
+    bottom: 10%;
+    right: 37%;
+}
+
+.b5 {
+    bottom: 37%;
+    right: 11%;
+    transform: rotate(108deg);
+}
+
+@media all and (max-width:500px) {
+    .b {
+        padding: 3px !important;
+        max-width: 20%;
+    }
+
+    b {
+        font-size: 7px;
+    }
+
+    .b1 {
+        padding: 5px !important;
+    }
+
+    .b4 {
+        max-height: 9%;
+    }
+
+    .b5 {
+        padding: 5px !important;
+    }
+
+    .btnp {
+        line-height: 5px;
+    }
+
+    .anim-div2 {
+        margin-top: calc((100vh - 90vmin)/2 - 3vmin);
+    }
+}
+
+.vid-text {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.home-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+.card-single {
+    position: relative;
+}
+
+.card11 {
+    left: 50%;
+    opacity: 0;
+    transition: opacity 1s, left 1s;
+}
+
+.card12 {
+    left: 0%;
+    opacity: 1;
+}
+
+.card21 {
+    right: 50%;
+    opacity: 0;
+    transition: opacity 1s, right 1s;
+}
+
+.card22 {
+    right: 0%;
+    opacity: 1;
+}
+
+.slider-image {
+    width: 200px;
+    height: auto;
+}
+
+.why-us-div {
+    background-image: url('../../assets/about-us.jpg');
+    background-size: cover;
+}
+
+.why-us {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.why-us-para {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.home-image-container {
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* height: 200px; */
+    margin-bottom: 5px;
+}
+
+.gallery-button {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 1));
+}
+/* 
+.gallery-img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+} */
+
+.gallery1 {
+    position: relative;
+}
+
+.gallery2 {
+    position: relative;
+    bottom: 0;
+}
+
+.home-services-card {
+    background-color: rgb(0, 157, 255, 0);
+    transition: background-color 0.5s;
+}
+
+.home-services-card:hover{
+    background-color: rgb(0, 157, 255);
+}
+
+.home-service-p11{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p111{
+    left:0;
+    opacity:1;
+}
+
+.home-service-p12{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p122{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
+
+.home-service-p21{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p211{
+    left:0;
+    opacity:1;
+    /* top:50px; */
+}
+
+.home-service-p22{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p222{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
+
+.home-service-p31{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p311{
+    left:0;
+    opacity:1;
+    /* top:50px; */
+}
+
+.home-service-p32{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p322{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
+
+.home-service-p41{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p411{
+    left:0;
+    opacity:1;
+    /* top:50px; */
+}
+
+.home-service-p42{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p422{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
+
+.home-service-p51{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p511{
+    left:0;
+    opacity:1;
+    /* top:50px; */
+}
+
+.home-service-p52{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p522{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
+
+.home-service-p61{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p611{
+    left:0;
+    opacity:1;
+    /* top:50px; */
+}
+
+.home-service-p62{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p622{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
+
+.home-service-p71{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p711{
+    left:0;
+    opacity:1;
+    /* top:50px; */
+}
+
+.home-service-p72{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p722{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
+
+.home-service-p81{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p811{
+    left:0;
+    opacity:1;
+    /* top:50px; */
+}
+
+.home-service-p82{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p822{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
+
+.home-service-p91{
+    top:75px !important;
+    opacity:0;
+    left:100%;
+    transition: opacity 0.5s,left 0.5s;
+}
+
+.home-service-p911{
+    left:0;
+    opacity:1;
+    /* top:50px; */
+}
+
+.home-service-p92{
+    top:85px !important;
+    right:100%;
+    opacity:0;
+    transition: opacity 0.5s,right 0.5s;
+}
+
+.home-service-p922{
+    right:0;
+    opacity:1;
+    /* top:70px; */
+}
