@@ -31,7 +31,7 @@ function App() {
                 {
                     path: 'services',
                     element: <Services />,
-                    children: [
+                },
                         {
                             path: 'service1',
                             element: <Service1 />
@@ -67,9 +67,7 @@ function App() {
                         {
                             path: 'service9',
                             element: <Service9 />
-                        }
-                    ]
-                },
+                        },
                 {
                     path: 'aboutus',
                     element: <AboutUs />
