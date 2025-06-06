@@ -41,47 +41,47 @@ function Footer() {
                         <div className="col-lg-3">
                             <h2>Services</h2>
                             <div className="separator"></div>
-                            <Link to='/Global_Trader/service5'>
+                            <Link to='/service5'>
                                 <p className='text-white'>
                                     Road Show
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/service6'>
+                            <Link to='/service6'>
                                 <p className='text-white'>
                                     Product Launch
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/service2'>
+                            <Link to='/service2'>
                                 <p className='text-white'>
                                     Brand Promotion
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/service4'>
+                            <Link to='/service4'>
                                 <p className='text-white'>
                                     Corporate Activity
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/service1'>
+                            <Link to='/service1'>
                                 <p className='text-white'>
                                     Events Organisation
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/service8'>
+                            <Link to='/service8'>
                                 <p className='text-white'>
                                     Marketing and Publicity
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/service3'>
+                            <Link to='/service3'>
                                 <p className='text-white'>
                                     Installation and Activation
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/service9'>
+                            <Link to='/service9'>
                                 <p className='text-white'>
                                     Cantervan Indoor / Outdoor
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/service7'>
+                            <Link to='/service7'>
                                 <p className='text-white'>
                                     Manpower and Artist Coordination
                                 </p>
@@ -90,19 +90,19 @@ function Footer() {
                         <div className="col-lg-3">
                             <h2>Company</h2>
                             <div className="separator"></div>
-                            <Link to='/Global_Trader/aboutus'><p className='text-white'>About Us</p></Link>
+                            <Link to='/aboutus'><p className='text-white'>About Us</p></Link>
                             <p>Our Team</p>
 
                         </div>
                         <div className="col-lg-3 text-white">
                             <h2>Resources</h2>
                             <div className="separator"></div>
-                            <Link to='/Global_Trader/gallery'>
+                            <Link to='/gallery'>
                                 <p className='text-white'>
                                     Blog
                                 </p>
                             </Link>
-                            <Link to='/Global_Trader/gallery'>
+                            <Link to='/gallery'>
                                 <p className='text-white'>
                                     Gallery
                                 </p>
