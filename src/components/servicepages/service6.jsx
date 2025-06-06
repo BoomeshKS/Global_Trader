@@ -121,7 +121,7 @@ function Services() {
                     </div>
                 </div>
                 <br></br>
-                <button className='primary-button mx-auto d-block' onClick={() => navigate('/Global_Trader/contact')}>Get This Service</button>
+                <button className='primary-button mx-auto d-block' onClick={() => navigate('/contact')}>Get This Service</button>
             </div>
         </div>
         </div>
