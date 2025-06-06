@@ -141,7 +141,7 @@ function Services() {
                             arr[service.ind - 1] = false
                             setFf(arr)
                         }} onClick={() => {
-                            navigate(`/Global_Trader/service${index + 1}`)
+                            navigate(`/service${index + 1}`)
                         }}>
                             <div key={index} className="rounded-5 p-3" style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%', zIndex: '1', marginBottom: '10px' }}>
                                 <div className="text-center">
